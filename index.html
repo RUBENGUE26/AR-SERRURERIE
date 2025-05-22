@@ -1,0 +1,243 @@
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AR SERRURERIE | Serrurier depuis 1989</title>
+    <style>
+        :root {
+            --primary-color: #0077b6;
+            --secondary-color: #023047;
+            --background-color: #f2f3f5;
+            --text-color: #1a1a1a;
+    
+            --primary-color: #1a1a1a;
+            --secondary-color: #e63946;
+            --background-color: #f5f5f5;
+            --text-color: #333;
+        }
+
+        body {
+            margin: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: var(--background-color);
+            color: var(--text-color);
+        }
+
+        header {
+            background: linear-gradient(rgba(52,152,219,0.7), rgba(52,152,219,0.7)), 
+                        url('https://images.unsplash.com/photo-1581093588401-3fd9e3a0dd98') no-repeat center center/cover;
+    
+            background: url('https://images.unsplash.com/photo-1581093588401-3fd9e3a0dd98') no-repeat center center/cover;
+            color: white; text-shadow: 1px 1px 2px #000;
+            text-align: center;
+            padding: 100px 20px;
+        }
+
+        header h1 {
+            font-size: 3em;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+        }
+
+        header p {
+            font-size: 1.3em;
+        }
+
+        nav {
+            background-color: var(--primary-color);
+            padding: 15px;
+            text-align: center;
+        }
+
+        nav a {
+            color: white; text-shadow: 1px 1px 2px #000;
+            margin: 0 20px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 1em;
+        }
+
+        section {
+            max-width: 1000px;
+            margin: auto;
+            padding: 40px 20px;
+            background: white;
+            margin-top: 30px;
+            border-radius: 10px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: var(--secondary-color);
+            margin-bottom: 20px;
+            border-bottom: 2px solid var(--secondary-color);
+            padding-bottom: 5px;
+        }
+
+        ul {
+            line-height: 1.8;
+            padding-left: 20px;
+        }
+
+        .btn-call {
+            display: block;
+            width: fit-content;
+            margin: 20px auto;
+            background-color: var(--secondary-color);
+            color: white; text-shadow: 1px 1px 2px #000;
+            padding: 15px 30px;
+            text-decoration: none;
+            font-size: 1.2em;
+            border-radius: 8px;
+            transition: background 0.3s;
+            text-align: center;
+        }
+
+        .btn-call:hover {
+            background-color: #c5303d;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+
+        input, textarea {
+            padding: 12px;
+            margin-bottom: 15px;
+            border: 1px solid #ccc;
+            border-radius: 6px;
+            font-size: 1em;
+        }
+
+        input[type="submit"] {
+            background-color: var(--primary-color);
+            color: white; text-shadow: 1px 1px 2px #000;
+            border: none;
+            cursor: pointer;
+            font-size: 1.1em;
+            transition: background 0.3s;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #333;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 12px;
+            border: 1px solid #ddd;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f0f0f0;
+        }
+
+        footer {
+            background-color: var(--primary-color);
+            color: white; text-shadow: 1px 1px 2px #000;
+            text-align: center;
+            padding: 20px 10px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>AR SERRURERIE</h1>
+    <p>Serrurier de père en fils depuis 1989</p>
+    <p>Intervention rapide en Île-de-France et Bouches-du-Rhône</p>
+</header>
+
+<nav>
+    <a href="#services">Services</a>
+    <a href="#tarifs">Tarifs</a>
+    <a href="#pourquoi">Pourquoi nous ?</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<section id="services">
+    <h2>Nos Services</h2>
+    <ul>
+        <li>Ouverture de portes claquées ou verrouillées, 24h/24 - 7j/7</li>
+        <li>Remplacement et réparation de serrures toutes marques (Fichet, Bricard, Vachette...)</li>
+        <li>Installation de portes blindées certifiées A2P</li>
+        <li>Reproduction de clés standards et haute sécurité</li>
+        <li>Sécurisation après effraction ou tentative d'intrusion</li>
+        <li>Conseils en sécurité et audits personnalisés</li>
+        <li>Devis gratuits sans engagement</li>
+    </ul>
+</section>
+
+<section id="tarifs">
+    <h2>Tarifs</h2>
+    <table>
+        <tr>
+            <th>Prestation</th>
+            <th>Tarif</th>
+        </tr>
+        <tr>
+            <td>Ouverture de porte</td>
+            <td>À partir de 90 €</td>
+        </tr>
+        <tr>
+            <td>Déplacement</td>
+            <td>45 €</td>
+        </tr>
+        <tr>
+            <td>Devis</td>
+            <td>Gratuit</td>
+        </tr>
+        <tr>
+            <td>Autre service 1</td>
+            <td>À définir</td>
+        </tr>
+        <tr>
+            <td>Autre service 2</td>
+            <td>À définir</td>
+        </tr>
+    </table>
+</section>
+
+<section id="pourquoi">
+    <h2>Pourquoi choisir AR SERRURERIE ?</h2>
+    <ul>
+        <li>Plus de 35 ans d’expérience dans le domaine</li>
+        <li>Entreprise familiale, savoir-faire transmis de génération en génération</li>
+        <li>Techniciens qualifiés, matériel de qualité supérieure</li>
+        <li>Disponibilité 7j/7, intervention rapide et fiable</li>
+        <li>Service client à l’écoute et suivi personnalisé</li>
+    </ul>
+</section>
+
+<section id="contact">
+    <h2>Contactez-nous</h2>
+    <a class="btn-call" href="tel:+33662927025">Appeler maintenant</a>
+    <p><strong>Téléphone :</strong> 06 62 92 70 25</p>
+    <p><strong>Adresse :</strong> 8, rue Louis Rège, 13008 Marseille</p>
+    <p><strong>Email :</strong> <a href="mailto:arserrurerie55@gmail.com">arserrurerie55@gmail.com</a></p>
+
+    <form action="mailto:arserrurerie55@gmail.com" method="POST" enctype="text/plain">
+        <input type="text" name="nom" placeholder="Votre nom" required>
+        <input type="email" name="email" placeholder="Votre email" required>
+        <input type="tel" name="telephone" placeholder="Votre téléphone">
+        <textarea name="message" rows="5" placeholder="Votre message" required></textarea>
+        <input type="submit" value="Envoyer le message">
+    </form>
+</section>
+
+<footer>
+    <p>&copy; 2025 AR SERRURERIE – Tous droits réservés</p>
+</footer>
+
+</body>
+</html>
